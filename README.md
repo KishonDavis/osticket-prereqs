@@ -18,38 +18,38 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 10</b> (22H2)
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Mircosoft Azure Account
+- Virtual Machine
+- Remote Desktop
+- Internet Information Services (IIS)
 
 <h2>Installation Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+1. {Create A Resource Group}
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+Log into Microsoft Aure https://portal.azure.com, navigate the resoucre group tab, and then create a resource group.
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+
+![image](https://github.com/user-attachments/assets/23ef5175-4ead-4a26-aee6-2b707602c5fc)
+
+
+2. {Create a Virtual Machine}
+
+Navigate the virtual machine tab, and begin creating your machine. While creating your machine, make sure your region matches the region of your resource group and add it to the resource group created previously.
+  
+![image](https://github.com/user-attachments/assets/a26d4514-b511-4c2a-a416-dee58923ccfb)
+
+Your virtual machine settings should look like this with atleast 2 vcpus for the size. 
+
+![image](https://github.com/user-attachments/assets/c445aff0-bdde-4dca-8579-2ef1b5a79229)
+
+Confirm the licensing of your VM, and create.
+
+![image](https://github.com/user-attachments/assets/b9d4f422-7437-4028-b523-9708cfba50ad)
+
+
+
