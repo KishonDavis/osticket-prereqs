@@ -51,5 +51,20 @@ Confirm the licensing of your VM, and create.
 
 ![image](https://github.com/user-attachments/assets/b9d4f422-7437-4028-b523-9708cfba50ad)
 
+3. {Access Virtual Machine}
+
+Using Remote Desktop, log into the VM using the credentials used when creating your VM and adding its Public IP Address in the "Computer" space.
+
+![image](https://github.com/user-attachments/assets/616ab797-4a3b-48f3-84d5-cf37466daab0)
+
+![image](https://github.com/user-attachments/assets/2bcc832a-10ac-43bf-abfa-a8676aa9b953)
+
+![image](https://github.com/user-attachments/assets/25175f7f-8aba-4f67-85a9-9ef03d0659e4)
+
+4. {Downloading & Preparing Installation}
+
+Within your VM, download the osticket.zip files
+
+![image](https://github.com/user-attachments/assets/f35b8d22-6eda-4d11-8c7c-fd6039a83ccb)
 
 
